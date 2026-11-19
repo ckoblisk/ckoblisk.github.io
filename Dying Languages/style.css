@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+header {
+    background-color: #3B1F2B;
+    color: #FFFFFF;
+    margin: 0;
+    padding-bottom: 5px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px -1px 6px #0D070A;
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px 10px 10px 20px;
+    text-align: center;
+}
+
+nav {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 120%;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #3B1F2B;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    text-align: center;
+    padding: 10px 10px 10px 20px;
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #FFFFFF;
+}
+
+nav a:visited {
+    color: #FFFFFF;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+    color: #3B1F2B;
+}
+
+.about {
+    max-width: 1000px;
+    margin: 100px auto 260px auto;
+    vertical-align: middle;
+}
+
+.about img {
+    float: right;
+    margin-left: 50px;
+    max-height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px #AAAAAA;
+}
+
+.about h2 {
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.about p {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 150%;
+    text-align: left;
+}
+
+.purpose {
+    margin-bottom: 100px;
+    background-color: #DBDFAC;
+    padding: 50px 0px;
+}
+
+.purpose h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.purpose p {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 150%;
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.explore {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.topics {
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topiccol {
+    text-align: center;
+    padding-bottom: 35px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px #AAAAAA;    
+}
+
+#topiccol1 {
+    background-color: #DB162F;
+}
+
+#topiccol2 {
+    background-color: #5F758E;
+}
+
+#topiccol3 {
+    background-color: #383961;
+}
+
+.topiccol img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.topiccol p {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 120%;
+    max-width: 350px;
+    margin: 15px auto 30px auto;
+    color: #FFFFFF;
+}
+
+.topicbutton {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 150%;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#topicbutton1 {
+    box-shadow: 0px 3px 5px #950F21;
+}
+
+#topicbutton2 {
+    box-shadow: 0px 3px 5px #415162;
+}
+
+#topicbutton3 {
+    box-shadow: 0px 3px 5px #1E1E34;
+}
+
+.topicbutton:link {
+    color: #000000;
+}
+
+.topicbutton:visited {
+    color: #000000;
+}
+
+footer {
+    background-color: #3B1F2B;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer ul {
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #3B1F2B;
+}
+
+footer li {
+    float: left;
+}
+
+footer a {
+    padding: 10px 10px 10px 20px;
+    text-decoration: none;
+}
+
+footer a:link {
+    color: #FFFFFF;
+}
+
+footer a:visited {
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+}
+
+footer p {
+    padding-top: 10px;
+}
