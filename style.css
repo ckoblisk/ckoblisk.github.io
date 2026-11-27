@@ -33,7 +33,7 @@ nav {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-size: 120%;
+    font-size: 125%;
     text-align: center;
 }
 
@@ -75,15 +75,25 @@ h2 {
     color: #3B1F2B;
 }
 
+h3 {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 250%;
+    color: #3B1F2B;
+}
+
 .about {
     max-width: 1000px;
-    margin: 100px auto 260px auto;
-    vertical-align: middle;
+    margin: 100px auto 100px auto;
+    display: flex;
+    align-items: center;
 }
 
 .about img {
     float: right;
-    margin-left: 50px;
+    margin-left: 75px;
     max-height: 500px;
     border-radius: 20px;
     box-shadow: 0px 5px 15px #AAAAAA;
@@ -91,7 +101,6 @@ h2 {
 
 .about h2 {
     text-align: left;
-    padding-top: 100px;
     padding-bottom: 15px;
 }
 
@@ -105,14 +114,14 @@ h2 {
 }
 
 .purpose {
-    margin-bottom: 100px;
+    margin-bottom: 75px;
     background-color: #DBDFAC;
     padding: 50px 0px;
 }
 
 .purpose h2 {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .purpose p {
@@ -203,11 +212,118 @@ h2 {
 }
 
 .topicbutton:link {
-    color: #000000;
+    color: #3B1F2B;
 }
 
 .topicbutton:visited {
-    color: #000000;
+    color: #3B1F2B;
+}
+
+.classification {
+    max-width: 1350px;
+    margin: 100px auto 100px auto;
+    display: flex;
+    align-items: center;
+}
+
+.classification h2 {
+    padding-bottom: 10px;
+}
+
+.classification p {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 150%;
+    max-width: 700px;
+}
+
+.classification table {
+    float: right;
+    margin-left: 75px;
+}
+
+table {
+    border-collapse:collapse;
+    border-style: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px #AAAAAA;
+}
+
+table, th, td { 
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 15px;
+}
+
+th {
+    font-size: 150%;
+    color: #3B1F2B;
+    background-color: #DBDFAC;
+    border-bottom: 2px solid #3B1F2B;
+}
+
+td {
+    border: 2px solid #DDDDDD;
+    font-size: 100%;
+}
+
+#leftround {
+    border-top-left-radius: 20px;
+}
+
+#rightround {
+    border-top-right-radius: 20px;
+}
+
+.causes {
+    background-color: #DBDFAC;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.causes h2 {
+    padding-bottom: 10px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.causes p {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 150%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.causecols {
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.causecols h3 {
+    padding-bottom: 5px;
+}
+
+.causecols p {
+    font-size: 125%;
+}
+
+.causecol1, .causecol2, .causecol3 {
+    width: 375px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 15px #B9BD91;
+    border-radius: 20px;
+    padding: 20px 20px 25px 20px;
 }
 
 footer {
